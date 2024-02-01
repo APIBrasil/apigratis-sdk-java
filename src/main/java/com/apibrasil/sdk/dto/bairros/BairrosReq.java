@@ -3,6 +3,6 @@ package com.apibrasil.sdk.dto.bairros;
 import lombok.Data;
 
 @Data
-public class BairrosRequest {
+public class BairrosReq {
     private String cidade;
 }
