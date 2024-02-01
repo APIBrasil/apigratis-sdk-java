@@ -6,7 +6,7 @@ import java.util.Map;
 
 @Data
 
-public class LoginResponse {
+public class LoginRes {
     private boolean error;
     private String message;
     private User user;

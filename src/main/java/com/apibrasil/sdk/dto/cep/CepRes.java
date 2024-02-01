@@ -1,4 +1,4 @@
 package com.apibrasil.sdk.dto.cep;
 
-public class CepResponse {
+public class CepRes {
 }

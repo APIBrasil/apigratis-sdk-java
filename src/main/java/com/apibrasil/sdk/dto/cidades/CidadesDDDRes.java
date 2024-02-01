@@ -7,7 +7,7 @@ import java.util.List;
 
 
 @Data
-public class CidadesDDDResponse {
+public class CidadesDDDRes {
     private boolean error;
     private String message;
     private ResponseData response;

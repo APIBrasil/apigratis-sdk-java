@@ -1,12 +1,12 @@
-package com.apibrasil.sdk.dto.estados;
+package com.apibrasil.sdk.dto.cidades;
 
-import com.apibrasil.sdk.dto.base.estado.Estado;
+import com.apibrasil.sdk.dto.base.cidade.Cidade;
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class EstadosResponse {
+public class CidadesRes {
     private boolean error;
     private String message;
     private ResponseData response;
@@ -16,6 +16,6 @@ public class EstadosResponse {
 
     @Data
     public static class ResponseData {
-        private List<Estado> estados;
+        private List<Cidade> cidades;
     }
 }

@@ -2,8 +2,8 @@ package com.apibrasil.sdk.client.login;
 
 import com.apibrasil.sdk.client.base.ApiClient;
 import com.apibrasil.sdk.client.base.BaseApiClient;
-import com.apibrasil.sdk.dto.login.LoginRequest;
-import com.apibrasil.sdk.dto.login.LoginResponse;
+import com.apibrasil.sdk.dto.login.LoginReq;
+import com.apibrasil.sdk.dto.login.LoginRes;
 import com.apibrasil.sdk.exception.ApiException;
 
 public class LoginClient extends BaseApiClient {
@@ -13,7 +13,7 @@ public class LoginClient extends BaseApiClient {
         super(apiClient);
     }
 
-    public LoginResponse login(LoginRequest request) throws ApiException {
-        return executePost(ENDPOINT, request, LoginResponse.class);
+    public LoginRes login(LoginReq request) throws ApiException {
+        return executePost(ENDPOINT, request, LoginRes.class);
     }
 }
