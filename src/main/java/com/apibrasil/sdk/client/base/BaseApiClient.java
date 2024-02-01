@@ -10,7 +10,6 @@ import java.io.IOException;
 public abstract class BaseApiClient {
     protected final ApiClient apiClient;
     protected String authorizationToken;
-
     public BaseApiClient(ApiClient apiClient) {
         this.apiClient = apiClient;
     }
