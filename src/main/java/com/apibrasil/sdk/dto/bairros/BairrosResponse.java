@@ -1,5 +1,7 @@
 package com.apibrasil.sdk.dto.bairros;
 
+import com.apibrasil.sdk.dto.base.bairro.Bairro;
+import com.apibrasil.sdk.dto.base.cidade.Cidade;
 import lombok.Data;
 import java.util.List;
 
@@ -17,26 +19,4 @@ public class BairrosResponse {
         private Cidade cidade;
         private List<Bairro> bairros;
     }
-
-    @Data
-    public static class Cidade {
-        private String cidade;
-        private String cidade_sem_acento;
-        private String estado;
-        private String cidade_ibge;
-        private String ddd;
-        private String cidade_area;
-        private String latitude;
-        private String longitude;
-    }
-
-    @Data
-    public static class Bairro {
-        private String bairro;
-        private String bairro_sem_acento;
-        private String estado;
-        private String latitude;
-        private String longitude;
-    }
-
 }
