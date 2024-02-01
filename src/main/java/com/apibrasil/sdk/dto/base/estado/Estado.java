@@ -1,18 +1,31 @@
 package com.apibrasil.sdk.dto.base.estado;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
 public class Estado {
     private String sigla;
-    private String faixa_ini;
-    private String faixa_fim;
+
+    @JsonProperty("faixa_ini")
+    private String faixaIni;
+
+    @JsonProperty("faixa_fim")
+    private String faixaFim;
+
     private String estado;
     private String capital;
     private String regiao;
-    private String estado_sem_acento;
-    private String capital_sem_acento;
-    private String regiao_sem_acento;
+
+    @JsonProperty("estado_sem_acento")
+    private String estadoSemAcento;
+
+    @JsonProperty("capital_sem_acento")
+    private String capitalSemAcento;
+
+    @JsonProperty("regiao_sem_acento")
+    private String regiaoSemAcento;
+
     private String latitude;
     private String longitude;
 }
