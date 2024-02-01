@@ -17,5 +17,4 @@ public class LoginRes {
     private List<Map<String, String>> invoices;
     @JsonProperty("authorization")
     private Authorization authorization;
-
 }

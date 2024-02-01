@@ -39,4 +39,6 @@ public class Device {
 
     @JsonProperty("api_info")
     private ApiInfo apiInfo;
+
+    private String server;
 }
