@@ -23,13 +23,13 @@ public class ApiClientImpl implements ApiClient {
     @Setter
     private String authToken;
 
+    @Getter
     @Setter
     private String deviceToken;
 
     public ApiClientImpl() {
         this.httpClient = HttpClients.createDefault();
     }
-
 
     @Override
     public <T> T executeApiCall(HttpUriRequest request, Class<T> responseType) throws ApiException {
@@ -40,13 +40,6 @@ public class ApiClientImpl implements ApiClient {
             throw new ApiException("Erro ao executar a chamada à API", e);
         }
     }
-
-    @Override
-    public String getDeviceToken() {
-        return this.deviceToken;
-    }
-
-
     private <T> T parseResponse(String jsonResponse, Class<T> responseType) throws JsonProcessingException {
         return new ObjectMapper().readValue(jsonResponse, responseType);
     }
