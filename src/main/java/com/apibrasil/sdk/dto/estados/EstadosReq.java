@@ -3,6 +3,6 @@ package com.apibrasil.sdk.dto.estados;
 import lombok.Data;
 
 @Data
-public class EstadosRequest {
+public class EstadosReq {
     private String pais;
 }
