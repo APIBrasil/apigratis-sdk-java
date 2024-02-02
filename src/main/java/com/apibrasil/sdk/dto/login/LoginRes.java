@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 import java.util.Map;
 
-@Data
+
 public class LoginRes {
     private boolean error;
     private String message;
@@ -17,4 +17,44 @@ public class LoginRes {
     private List<Map<String, String>> invoices;
     @JsonProperty("authorization")
     private Authorization authorization;
+
+    public boolean isError() {
+        return error;
+    }
+
+    public void setError(boolean error) {
+        this.error = error;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public List<Map<String, String>> getInvoices() {
+        return invoices;
+    }
+
+    public void setInvoices(List<Map<String, String>> invoices) {
+        this.invoices = invoices;
+    }
+
+    public Authorization getAuthorization() {
+        return authorization;
+    }
+
+    public void setAuthorization(Authorization authorization) {
+        this.authorization = authorization;
+    }
 }
