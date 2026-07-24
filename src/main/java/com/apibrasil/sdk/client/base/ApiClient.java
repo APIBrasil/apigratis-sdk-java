@@ -9,7 +9,7 @@ import org.apache.hc.client5.http.classic.methods.HttpUriRequest;
  * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}, que cobre
  *             toda a plataforma com erros tipados, retry e hooks.
  */
-@Deprecated(since = "0.1.0")
+@Deprecated(since = "0.0.1")
 public interface ApiClient {
     <T> T executeApiCall(HttpUriRequest request, Class<T> responseType) throws ApiException;
     String getAuthToken();

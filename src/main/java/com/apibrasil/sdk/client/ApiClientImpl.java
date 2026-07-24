@@ -21,7 +21,7 @@ import java.util.Arrays;
  *
  * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
  */
-@Deprecated(since = "0.1.0")
+@Deprecated(since = "0.0.1")
 public class ApiClientImpl implements ApiClient {
     private final CloseableHttpClient httpClient;
 

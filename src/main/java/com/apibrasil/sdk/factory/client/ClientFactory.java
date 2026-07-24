@@ -8,7 +8,7 @@ import com.apibrasil.sdk.client.base.ApiClient;
  *
  * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
  */
-@Deprecated(since = "0.1.0")
+@Deprecated(since = "0.0.1")
 public class ClientFactory {
     public static ApiClient createDefaultClient() {
         return new ApiClientImpl();

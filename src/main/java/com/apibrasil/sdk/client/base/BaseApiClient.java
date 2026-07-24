@@ -12,7 +12,7 @@ import java.io.IOException;
  *
  * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
  */
-@Deprecated(since = "0.1.0")
+@Deprecated(since = "0.0.1")
 public abstract class BaseApiClient {
     protected final ApiClient apiClient;
     protected String authorizationToken;

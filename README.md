@@ -22,14 +22,14 @@ Maven:
 <dependency>
     <groupId>br.com.apibrasil</groupId>
     <artifactId>apigratis-sdk-java</artifactId>
-    <version>0.1.0</version>
+    <version>0.0.1</version>
 </dependency>
 ```
 
 Gradle:
 
 ```groovy
-implementation 'br.com.apibrasil:apigratis-sdk-java:0.1.0'
+implementation 'br.com.apibrasil:apigratis-sdk-java:0.0.1'
 ```
 
 Requer **Java >= 17**. O transporte padrão é o `java.net.http.HttpClient` do próprio JDK — a única dependência obrigatória é o Jackson (JSON).

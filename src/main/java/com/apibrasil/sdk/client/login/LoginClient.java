@@ -11,7 +11,7 @@ import com.apibrasil.sdk.exception.ApiException;
  *
  * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
  */
-@Deprecated(since = "0.1.0")
+@Deprecated(since = "0.0.1")
 public class LoginClient extends BaseApiClient {
     private static final String ENDPOINT = "https://cluster.apigratis.com/api/v2/login";
 
