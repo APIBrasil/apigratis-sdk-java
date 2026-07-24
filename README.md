@@ -11,7 +11,7 @@ SDK oficial Java da plataforma [APIBrasil](https://apibrasil.com.br) — WhatsAp
 
 ## Canais de suporte (Comunidade)
 
-[![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/EeAWALQb6Ga5oeTbG7DD2k)
+[![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://whatsapp.com/channel/0029VaMiaT6B4hdX3hrUcz3X)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
 
 ## Instalação
