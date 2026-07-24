@@ -6,6 +6,12 @@ import com.apibrasil.sdk.dto.login.LoginReq;
 import com.apibrasil.sdk.dto.login.LoginRes;
 import com.apibrasil.sdk.exception.ApiException;
 
+/**
+ * Cliente legado.
+ *
+ * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
+ */
+@Deprecated(since = "0.1.0")
 public class LoginClient extends BaseApiClient {
     private static final String ENDPOINT = "https://cluster.apigratis.com/api/v2/login";
 

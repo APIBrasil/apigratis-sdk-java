@@ -16,6 +16,12 @@ import org.apache.hc.core5.http.io.entity.EntityUtils;
 import java.io.IOException;
 import java.util.Arrays;
 
+/**
+ * Implementação legada sobre o Apache HttpClient.
+ *
+ * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
+ */
+@Deprecated(since = "0.1.0")
 public class ApiClientImpl implements ApiClient {
     private final CloseableHttpClient httpClient;
 

@@ -7,6 +7,12 @@ import org.apache.hc.core5.http.io.entity.StringEntity;
 
 import java.io.IOException;
 
+/**
+ * Base dos clientes legados por endpoint.
+ *
+ * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
+ */
+@Deprecated(since = "0.1.0")
 public abstract class BaseApiClient {
     protected final ApiClient apiClient;
     protected String authorizationToken;

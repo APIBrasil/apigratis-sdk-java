@@ -6,6 +6,12 @@ import com.apibrasil.sdk.dto.estados.EstadosReq;
 import com.apibrasil.sdk.dto.estados.EstadosRes;
 import com.apibrasil.sdk.exception.ApiException;
 
+/**
+ * Cliente legado.
+ *
+ * @deprecated Prefira {@code new com.apibrasil.sdk.ApiBrasil(...)}.
+ */
+@Deprecated(since = "0.1.0")
 public class EstadosClient extends BaseApiClient {
 
     private static final String ENDPOINT = "https://cluster.apigratis.com/api/v2/cep/estados";
